@@ -51,10 +51,6 @@ export default function MainMenu({ onStart, onContinue, onSettings }: MainMenuPr
             SETTINGS
           </Button>
         </div>
-
-        <p className="text-muted-foreground text-sm absolute bottom-4">
-          CS309 | Johnston Liu, Mercy Omwoyo, Sarang Joshi
-        </p>
       </div>
     </div>
   );
