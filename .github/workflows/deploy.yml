@@ -31,6 +31,8 @@ jobs:
 
       - name: Build
         run: npm run build:client
+        env:
+          VITE_DEMO_MODE: true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

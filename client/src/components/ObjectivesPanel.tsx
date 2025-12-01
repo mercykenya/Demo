@@ -1,5 +1,6 @@
 import { Activity, AlertTriangle, Zap, Wind } from 'lucide-react';
 import { Card } from '@/components/ui/card';
+import { useQuery } from '@tanstack/react-query';
 
 interface Objective {
   id: string;
