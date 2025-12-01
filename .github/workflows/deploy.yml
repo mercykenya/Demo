@@ -32,6 +32,7 @@ jobs:
       - name: Build
         run: npm run build:client
         env:
+          NODE_ENV: production
           VITE_DEMO_MODE: true
 
       - name: Setup Pages
